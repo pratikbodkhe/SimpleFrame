@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/PB/adt-bundle-windows-x86-20140321/Required jars and files/selenium-server-standalone-2.44.0.jar"/>
+	<classpathentry kind="lib" path="C:/PB/adt-bundle-windows-x86-20140321/Required jars and files/poi-3.10.1/poi-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="C:/PB/adt-bundle-windows-x86-20140321/Required jars and files/poi-3.10.1/poi-examples-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="C:/PB/adt-bundle-windows-x86-20140321/Required jars and files/poi-3.10.1/poi-excelant-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="C:/PB/adt-bundle-windows-x86-20140321/Required jars and files/poi-3.10.1/poi-ooxml-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="C:/PB/adt-bundle-windows-x86-20140321/Required jars and files/poi-3.10.1/poi-ooxml-schemas-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="C:/PB/adt-bundle-windows-x86-20140321/Required jars and files/poi-3.10.1/poi-scratchpad-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="C:/PB/adt-bundle-windows-x86-20140321/Required jars and files/poi-3.10.1/lib/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="C:/PB/adt-bundle-windows-x86-20140321/Required jars and files/poi-3.10.1/lib/junit-4.11.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
