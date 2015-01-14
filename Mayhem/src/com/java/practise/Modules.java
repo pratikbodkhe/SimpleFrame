@@ -43,7 +43,8 @@ public class Modules {
 		} catch (FileNotFoundException e) {
 			log.error("TC Flow excel for test case " + tc_ID + " not found");
 			//e.printStackTrace();
-			System.exit(1);
+			//System.exit(1);
+			return;
 
 		} catch (IOException e) {
 
