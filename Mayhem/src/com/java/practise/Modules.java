@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -16,6 +17,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import com.java.commons.Constants;
+import com.java.commons.Variables;
+import com.java.reports.WriteTCReport;
 
 public class Modules {
 	Logger log = Logger.getLogger(Modules.class);
@@ -65,8 +68,12 @@ public class Modules {
 			}
 
 		}
-		log.info(tc_ID + " Execution Complete");
 		driver.quit();
+		log.info(" Execution Complete for Test Case  - "+tc_ID);
+		Variables variables = new Variables();
+		variables.setCompletedOn(new Date().toString());
+		WriteTCReport writeTCReport = new WriteTCReport();
+		writeTCReport.testCaseExecutionStatus(tc_ID);
 	}
 
 	public void setModuleStatus(String tc_ID,String moduleName,String moduleStatus) {

@@ -370,3 +370,14 @@ Sign in with
 2015-Jan-14 11:11:47 ERROR Modules:41 - TC Flow excel for test case 2 not found
 2015-Jan-14 11:11:56 ERROR Login:35 - Email/Password combination is wrong.
 2015-Jan-14 11:11:56 INFO  Modules:75 - Writing status against module
+2015-Jan-14 13:57:29 INFO  NewFile:27 - ################        Start of Suite run       ############
+2015-Jan-14 13:57:29 INFO  NewFile:71 - Reading Driver Sheet
+2015-Jan-14 13:57:29 INFO  Modules:28 - Starting Execution of the test case -  1
+2015-Jan-14 13:57:33 INFO  Login:17 - Executing Login
+2015-Jan-14 13:57:47 ERROR Login:35 - Email/Password combination is wrong.
+2015-Jan-14 13:57:47 INFO  Modules:82 - Writing status against module
+2015-Jan-14 13:57:47 INFO  Verify:17 - Executing Verify
+2015-Jan-14 13:57:47 INFO  Verify:18 - Title Online Shopping India - Shop Online for Books, Mobile Phones, Digital Cameras, Watches & More at Flipkart.com
+2015-Jan-14 13:57:52 INFO  Modules:72 -  Execution Complete for Test Case  - 1
+2015-Jan-14 13:57:52 INFO  Modules:28 - Starting Execution of the test case -  2
+2015-Jan-14 13:57:52 ERROR Modules:44 - TC Flow excel for test case 2 not found
